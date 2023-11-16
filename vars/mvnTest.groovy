@@ -1,5 +1,5 @@
 def call(){
-    sh 'mvn clean install'
+    sh 'mvn clean install -U'
 
 
     sh 'mvn test'    
